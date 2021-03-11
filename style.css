@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container{
+  width: 992px;
+  margin: auto;
+}
+
+.wrap{
+  display: flex;
+  flex-flow: wrap;
+}
+
+.header{
+  background-color: red;
+  height: 60px;
+}
+
+.wrap_sidebar{
+  width: 30%;
+  background-color: green;
+  height: 400px;
+}
+
+.wrap_content{
+  width: 70%;
+  background-color: brown;
+  height: 400px;
+}
+
+.footer{
+  background-color: blue;
+  height: 60px;
+}
+
+
