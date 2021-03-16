@@ -30,7 +30,17 @@
   background-color: red;
   height: 60px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.header_item{
+  padding: 0px 30px;
+}
+
+
+
 
 .main{
   display: flex;
@@ -57,27 +67,16 @@
   background-color:cornflowerblue;
 }
 
-.wrap{
-  display: flex;
-  flex-flow: wrap;
-  margin-right: -30px;
-  margin-bottom: 30px;
-}
-
-.wrap_block{
-  width: 33.333%;
-  padding-right: 30px;
-}
-
-.wrap_inblock{
-  height: 400px;
-  background-color: teal;
-}
-
-
 .footer{
   background-color: blue;
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+
+.footer_item{
+  padding: 0px 30px;
+}
 
